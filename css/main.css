@@ -1,6 +1,10 @@
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	margin: 0;
+}
+
+sup{
+	font-size: 8px;
 }
 
 nav {
@@ -41,26 +45,64 @@ nav li > a{
   color: white;
 }
 
+
 img {
   padding: 100px 50px;
-  max-width:50%;
-  max-height:50%;
+  max-width:40%;
+  max-height:40%;
   display: inline-block;
   float: left;
 }
 
-header h1 {
-	font-size: 36px;
-	margin: 0;
+header {
+	margin-top: 100px;
 }
 
+header h1 {
+	font-size: 30px;
+	margin: 0;
+	color: orange;
+	padding-top: 100px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+}
 
+.search span2{
+	color: #7ACCC8;
+}
+
+.search input{
+	background-color: #F1F1F1;
+	color: gray;
+	float: right;
+	margin-right: 20px;
+}
+
+.quote{
+	background-color: #FE7E00;
+	display: inline-block;
+	color: white;
+	padding: 10px;
+	margin: 10px;
+}
+
+.studies{
+	background-color: #7ACCC8;
+	display: inline-block;
+	color: white;
+	padding: 10px;
+	margin: 10px;
+}
 
 
 
 footer {
 	background: #7ACCC8;
   height: 80px;
+	bottom: 0 !important;
+	position: absolute;
+	width:100%;
+
 
 
 }
